@@ -46,7 +46,9 @@ exports.conf = {
 };
 
 exports.help = {
-  name: "bot",
+  name: "about",
+  eles : "a",
+  eles : "b",
   description: "lrowsxrd",
   usage: "jfkdjkj"
 };
