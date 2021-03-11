@@ -9,7 +9,7 @@ const client = new Discord.Client()
 
 client.on("ready", () => {
     console.log(`${client.user.username} ready!`)
-  client.user.setActivity(` |help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
+  client.user.setActivity(` /help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
    
 })
 
