@@ -16,9 +16,9 @@ exports.run = async (bot, message, args) => {
   
 
   
-.addField("**owner bot**", "<@758476332098650152>")
+.addField("**OWNER BOT**", "<@758476332098650152>")
   
-  .addField("**owner bot**", "<@803395786582654997>")
+  .addField("**OWNER BOT**", "<@803395786582654997>")
   
   .addField("`Language Program`",  `**Java Script**`, true)
   
