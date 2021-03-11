@@ -41,5 +41,3 @@ exports.help = {
   usage: 'anime'
 
 };
-
-
