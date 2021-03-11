@@ -11,8 +11,8 @@ client.on('ready', async () => {
   setInterval( async () => {
     client.appInfo = await client.fetchApplication();
   }, 600);
-
-client.user.setActivity(Darknes Code V12 Gif Bot, { type:"WATHING" })
+  
+ client.user.setActivity(`Darknes Code V12 Gif Bot`, { type:"WATHING" })
   console.log("[BOT] Kullanıma Hazır!")
 });
 
@@ -35,6 +35,8 @@ fs.readdir('./komutlar/', (err, files) => {
         });
     });
 });
+
+
 
 
 client.reload = command => {
@@ -129,3 +131,4 @@ Revenge.send(new Discord.Attachment(RevengePP))
 //------------------------ Halka Açık Random Gif Pp -----------------------//
 //------------------------ Halka Açık Random Gif Pp -----------------------//
 //------------------------ Halka Açık Random Gif Pp -----------------------//
+© 2021 GitHub, Inc.
