@@ -36,8 +36,6 @@ fs.readdir('./komutlar/', (err, files) => {
     });
 });
 
-${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
-
 
 client.reload = command => {
     return new Promise((resolve, reject) => {
@@ -131,3 +129,8 @@ Revenge.send(new Discord.Attachment(RevengePP))
 //------------------------ Halka Açık Random Gif Pp -----------------------//
 //------------------------ Halka Açık Random Gif Pp -----------------------//
 //------------------------ Halka Açık Random Gif Pp -----------------------//
+//watching
+${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
+
+
+
