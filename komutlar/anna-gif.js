@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
 
-let replies = ["https://64.media.tumblr.com/1dabf041d6581a70a19d3454bd5f4f3a/01605b0a859b1a13-60/s400x600/a067c73b8eae7a214cdf50eddf06deb95fdfe45f.gifv",];
+let replies = ["https://th.bing.com/th/id/OIP.YLTKp773VSNu8DNu-PqDYgHaIJ?pid=ImgDet&rs=1",];
 let result = Math.floor((Math.random() * replies.length));
 
 let gifembed = new Discord.MessageEmbed()
