@@ -6,6 +6,14 @@ const ayarlar = require('./ayarlar.json');
 const app = express();
 const Discord = require('discord.js');
 const client = new Discord.Client();
+
+client.on("ready", () => {
+    console.log(${client.user.username} ready!);
+  client.user.setActivity(Type: |help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},, { type: "PLAYING"});
+
+})
+
+
 client.on('ready', async () => {
    client.appInfo = await client.fetchApplication();
   setInterval( async () => {
