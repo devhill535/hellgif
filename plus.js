@@ -5,7 +5,14 @@ const express = require('express');
 const ayarlar = require('./ayarlar.json');
 const app = express();
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client()
+
+client.on("ready", () => {
+    console.log(`${client.user.username} ready!`)
+  client.user.setActivity(` |help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
+   
+})
+
 
 const log = message => {
   console.log(` ${message}`);
