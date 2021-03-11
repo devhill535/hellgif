@@ -128,15 +128,6 @@ Revenge.send(new Discord.Attachment(RevengePP))
 })
 })
 
-client.on("ready", () => {
-    console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`Type: |help | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
-   
-})
-
-})
-
 //------------------------ Halka Açık Random Gif Pp -----------------------//
 //------------------------ Halka Açık Random Gif Pp -----------------------//
 //------------------------ Halka Açık Random Gif Pp -----------------------//
-© 2021 GitHub, Inc.
