@@ -13,6 +13,7 @@ client.on('ready', async () => {
   }, 600);
 
  client.user.setActivity(`Darknes Code V12 Gif Bot`, { type:"WATHING" })
+   ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
   console.log("[BOT] Kullanıma Hazır!")
 });
 
