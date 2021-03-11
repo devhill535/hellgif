@@ -8,7 +8,7 @@ let result = Math.floor((Math.random() * replies.length));
 
 let gifembed = new Discord.MessageEmbed()
 
-.setTitle("LOVE Gif")
+.setTitle("COUPLE")
 
 .setColor("RANDOM")
 
@@ -26,7 +26,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['gif love','lovegif','giflove','love gif','love'],
+  aliases: ['gif couple','couplegif','gifcouple','couple gif','couple'],
 
   permLevel: 0
 
@@ -34,10 +34,10 @@ exports.conf = {
 
 exports.help = {
 
-  name: 'LOVE',
+  name: 'COUPLE',
 
   description: 'lrowsfdkvxrd',
 
-  usage: 'LOVE'
+  usage: 'COUPLE'
 
 };
