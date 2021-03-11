@@ -11,7 +11,7 @@ client.on('ready', async () => {
   setInterval( async () => {
     client.appInfo = await client.fetchApplication();
   }, 600);
-  ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
+
  client.user.setActivity(`Darknes Code V12 Gif Bot`, { type:"WATHING" })
   console.log("[BOT] Kullanıma Hazır!")
 });
@@ -36,7 +36,7 @@ fs.readdir('./komutlar/', (err, files) => {
     });
 });
 
-
+${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
 
 
 client.reload = command => {
