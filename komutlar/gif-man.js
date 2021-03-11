@@ -35,7 +35,7 @@ exports.conf = {
 exports.help = {
 
   name: 'man',
-
+  aliases: ["boy"],
   description: 'lrowvn cv msxrd',
 
   usage: 'mamvcmmn'
