@@ -10,7 +10,7 @@ let gifembed = new Discord.MessageEmbed()
 
 .setTitle("Animal Gif ;")
 
-.setColor("BLACK")
+.setColor("RANDOM")
 
 .setFooter(`${message.author.tag} `, message.author.avatarURL)
 
@@ -26,7 +26,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['gif-animal','animal-gif','gifanimal','animalgif'],
+  aliases: ['gif animal','animal gif','gifanimal','animalgif','animal'],
 
   permLevel: 0
 
