@@ -16,7 +16,7 @@ const embed = new Discord.MessageEmbed()
 
 **Info Command**
 
-**| /bot | /avatar | /help | /ping |**
+** /bot , /avatar , /help , /ping ,**
 
     
 **[ invite ]**
