@@ -1,26 +1,37 @@
-client.on("message", message => {
- let embed = new Discord.RichEmbed()
-      .setAuthor(message.author.username)
-      .setThumbnail(message.author.avatarURL)
-      .setFooter("")
-      .setImage(
-        "https://cdn.discordapp.com/attachments/796750980469358622/809873763444850698/image0.gif"
-      )
-      .setColor("RANDOM").setDescription(` 
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const moment = require('moment');
+var ayarlar = require('../ayarlar.json');
 
-🕐|date
-  ||GIF||
-😅|meme
-🎴|boomb
-=========================
-🌝|man gif
-🦄|girl gif
-=========================
-💔|sad gif
-❤|love gif
+exports.run = async (client, message, args, msg) => {
 
- | [ Server Support](${SUPPORT}) |
-`);
-    message.channel.sendEmbed(embed);
-  }
-});
+const embed = new Discord.MessageEmbed()
+    
+.setColor('BLACK') 
+.addField(`**help commands**`,
+          
+ `
+**| girl | .man | .couple | .baby | .anime | .animal |**
+**Info Command**
+**| .bot | .avatar | .help | .ping |**
+    
+**[ invite ]**
+**[ click here ](https://discord.com/api/oauth2/authorize?client_id=778276774320275487&permissions=8&scope=bot)** 
+**[ support ]**
+**[ click here ](https://discord.gg/3wykSpqjZq)**`)
+    
+message.channel.send({embed});
+}
+
+exports.conf = {
+enabled: true,
+guildOnly: false,
+aliases: ['help'],
+permLevel: 0
+};
+
+exports.help = {
+  name: '',
+  description: 'help bot',
+  usage: 'dev jano'
+};
