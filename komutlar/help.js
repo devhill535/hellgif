@@ -1,16 +1,18 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const moment = require('moment');
-var ayarlar = require('../ayarlar.json');
+client.on("message", message => {
+    var addserver = `https://discord.gg/99KsGZHrsv`;
+    var SUPPORT = `https://discord.gg/99KsGZHrsv`;
+    var website = `https://black-bot-html.glitch.me/`;
+    let embed = new Discord.RichEmbed()
+      .setAuthor(message.author.username)
+      .setThumbnail(message.author.avatarURL)
+      .setFooter("")
+      .setImage(
+        "https://cdn.discordapp.com/attachments/796750980469358622/809873763444850698/image0.gif"
+      )
+      .setColor("RANDOM").setDescription(` 
 
-exports.run = async (client, message, args, msg) => {
-
-const embed = new Discord.MessageEmbed()
-    
-.setColor('RANDOM') 
-.addField(`**help commands**`,
-          
-  ||GIF||**
+🕐|date
+  ||GIF||
 😅|meme
 🎴|boomb
 =========================
@@ -19,24 +21,9 @@ const embed = new Discord.MessageEmbed()
 =========================
 💔|sad gif
 ❤|love gif
-    
-**[ invite ]**
-**[ click here ](https://discord.com/api/oauth2/authorize?client_id=733469607175913593&permissions=8&scope=bot)** 
-**[ support ]**
-**[ click here ](https://discord.gg/9jyZWX4Fmc)**`)
-    
-message.channel.send({embed});
-}
 
-exports.conf = {
-enabled: true,
-guildOnly: false,
-aliases: ['help'],
-permLevel: 0
-};
-
-exports.help = {
-  name: '',
-  description: 'help bot',
-  usage: 'dev hell'
-};
+ | [ Server Support](${SUPPORT}) |
+`);
+    message.channel.sendEmbed(embed);
+  }
+});
