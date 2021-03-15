@@ -1,8 +1,5 @@
 client.on("message", message => {
-    var addserver = `https://discord.gg/99KsGZHrsv`;
-    var SUPPORT = `https://discord.gg/99KsGZHrsv`;
-    var website = `https://black-bot-html.glitch.me/`;
-    let embed = new Discord.RichEmbed()
+ let embed = new Discord.RichEmbed()
       .setAuthor(message.author.username)
       .setThumbnail(message.author.avatarURL)
       .setFooter("")
