@@ -7,17 +7,18 @@ exports.run = async (client, message, args, msg) => {
 
 const embed = new Discord.MessageEmbed()
     
-.setColor('BLACK') 
+.setColor('RANDOM') 
 .addField(`**help commands**`,
           
- `
-**| /girl | /man | .couple | .baby | /anime | /animal |**
-
-
-**Info Command**
-
-** /bot , /avatar , /help , /ping ,**
-
+  ||GIF||**
+😅|meme
+🎴|boomb
+=========================
+🌝|man gif
+🦄|girl gif
+=========================
+💔|sad gif
+❤|love gif
     
 **[ invite ]**
 **[ click here ](https://discord.com/api/oauth2/authorize?client_id=733469607175913593&permissions=8&scope=bot)** 
@@ -37,5 +38,5 @@ permLevel: 0
 exports.help = {
   name: '',
   description: 'help bot',
-  usage: 'dev jano'
+  usage: 'dev hell'
 };
