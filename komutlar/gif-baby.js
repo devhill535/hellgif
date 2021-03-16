@@ -26,7 +26,7 @@ let replies = ["https://cdn.discordapp.com/attachments/699339066029768796/736983
                "https://cdn.discordapp.com/attachments/699339066029768796/734965015739629599/image0-6.gif",
                "https://cdn.discordapp.com/attachments/699339066029768796/732175141567725639/image0.gif",
                "https://cdn.discordapp.com/attachments/699339066029768796/730498782265081876/bab3.gif",
-               "https://cdn.discordapp.com/attachments/699339066029768796/730499512602329198/14.gif"
+               "https://cdn.discordapp.com/attachments/699339066029768796/730499512602329198/14.gif",
               ];
 
 let result = Math.floor((Math.random() * replies.length));
