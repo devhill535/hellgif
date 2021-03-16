@@ -25,7 +25,7 @@ let result = Math.floor((Math.random() * replies.length));
   
 let gifembed = new Discord.MessageEmbed()
 
-.setTitle("girl Gif")
+.setTitle("GIRL Gif")
 
 .setColor("RANDOM")
 
@@ -43,7 +43,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['gif-wofdkdbman','woman-gvndfjkvif','gifwvoman','womafjbjfggif','kafvddın'],
+  aliases: ['gif woman','woman gif','gifwoman','womangif','woman','woman','girl gif','gif girl','girlgif','Girl',],
 
   permLevel: 0
 
