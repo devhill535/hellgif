@@ -16,7 +16,7 @@ let replies = ["https://cdn.discordapp.com/attachments/733640065200160768/737280
                "https://cdn.discordapp.com/attachments/733640065200160768/737282276320084118/tenor_2.gif",
                "https://cdn.discordapp.com/attachments/733640065200160768/737282249422143488/tenor_3.gif",
                "https://cdn.discordapp.com/attachments/733640065200160768/737282243113910292/tenor_4.gif",
-               "https://cdn.discordapp.com/attachments/733640065200160768/737282207579635722/tenor.gif
+               "https://cdn.discordapp.com/attachments/733640065200160768/737282207579635722/tenor.gif",
                "https://cdn.discordapp.com/attachments/733640065200160768/737282195185467473/tenor_5.gif",
                "https://cdn.discordapp.com/attachments/733640065200160768/737282604176506910/tenor.gif",
                "https://cdn.discordapp.com/attachments/733640065200160768/737282625747681410/tenor_1.gif",
@@ -26,7 +26,7 @@ let replies = ["https://cdn.discordapp.com/attachments/733640065200160768/737280
                "https://cdn.discordapp.com/attachments/733640065200160768/737282947119579216/tenor_9.gif",
                "https://cdn.discordapp.com/attachments/733640065200160768/737282750385487932/tenor_5.gif",
                "https://cdn.discordapp.com/attachments/733640065200160768/737282940760883210/tenor_10.gif",
-               "https://cdn.discordapp.com/attachments/733640065200160768/737282991348252683/tenor_13.gif"
+               "https://cdn.discordapp.com/attachments/733640065200160768/737282991348252683/tenor_13.gif",
                
               ];
 
